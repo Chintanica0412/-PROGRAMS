@@ -1,0 +1,7 @@
+def convert(s): 
+    new = "" 
+    for x in s: 
+        new += x 
+    return new 
+s = ['T', 'e', 'd','d', 'y', 'C', 'h', 'i', 'n', 'a', 'H', 'A', 'W'] 
+print(convert(s)) 
