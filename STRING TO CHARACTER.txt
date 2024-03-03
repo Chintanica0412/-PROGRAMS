@@ -1,0 +1,5 @@
+string = "PYTHON"
+
+to_array = [char for char in string]
+
+print(to_array)
