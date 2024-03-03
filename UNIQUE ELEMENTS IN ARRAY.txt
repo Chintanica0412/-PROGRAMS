@@ -1,0 +1,10 @@
+def find_unique_elements(arr):
+    unique_elements = list(set(arr))
+    return unique_elements
+
+# Example usage:
+input_array = [1, 2, 3, 4, 2, 5, 6, 1, 7, 8, 9, 7]
+unique_elements = find_unique_elements(input_array)
+
+print("Original Array:", input_array)
+print("Unique Elements:", unique_elements)
