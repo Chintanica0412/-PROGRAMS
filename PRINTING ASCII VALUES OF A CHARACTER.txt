@@ -1,0 +1,6 @@
+test_list = ['teddy', 'is', 'best']
+print("The original list : " + str(test_list))
+res = []
+for ele in test_list:
+    res.extend(ord(num) for num in ele)
+print("The ascii list is : " + str(res))
